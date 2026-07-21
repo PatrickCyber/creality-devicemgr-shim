@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- <link rel="icon" href="/favicon.ico"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DevicePage</title>
+        <script src="./c++-bridge-shim.js"></script>
+        <script defer src="./assets/C8FZo4i0.js"></script>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script>
+            (function () {
+                if (!Array.isArray(window.__studioCmdQueue__)) {
+                    window.__studioCmdQueue__ = [];
+                }
+                if (typeof window.handleStudioCmd !== 'function') {
+                    window.handleStudioCmd = function (jsonData) {
+                        window.__studioCmdQueue__.push(jsonData);
+                    };
+                }
+            })();
+        </script>
+    </body>
+</html>

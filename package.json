@@ -1,0 +1,13 @@
+{
+  "name": "creality-device-proxy",
+  "version": "1.0.0",
+  "description": "Standalone device management web service for Creality printers, compatible with Orca Slicer device UI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

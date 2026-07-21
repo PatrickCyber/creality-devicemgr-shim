@@ -90,11 +90,11 @@ node server.js
 
 ## Orca Slicer 2.4.2 集成效果截图
 ### 打印机配置
-![打印机配置](.\Screenshots\c510ce0e-fb2d-4391-bc8f-3407e8d46670.png)
+![打印机配置](Screenshots/c510ce0e-fb2d-4391-bc8f-3407e8d46670.png)
 ### 上传并打印 (支持耗材映射手动选择，不支持颜色自动映射) 
-![上传并打印](.\Screenshots\e0f5cd9c-f01f-4384-9ac3-8a5844f4dc1c.png)
+![上传并打印](Screenshots/e0f5cd9c-f01f-4384-9ac3-8a5844f4dc1c.png)
 ### 设备标签页 (与Creality Print中使用完全一致)
-![设备标签页](.\Screenshots\a114b08f-02ad-485b-a9ac-bc0d440c4c32.png)
+![设备标签页](Screenshots/a114b08f-02ad-485b-a9ac-bc0d440c4c32.png)
 
 ---
 
